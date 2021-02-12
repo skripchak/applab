@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+header {
+  padding: 100px 0 70px; }
+  header .row {
+    align-items: center; }
+    header .row ul, header .row li {
+      padding: 0;
+      margin: 0;
+      list-style: none; }
+    header .row .menu {
+      width: 461px; }
+      header .row .menu a {
+        color: #242f51;
+        font-family: Poppins, sans-serif; }
+    header .row .btn {
+      padding: 0;
+      margin: 0;
+      width: 170px;
+      height: 57px;
+      border-radius: 29px;
+      background-color: #2500f9; }
+    header .row .logo {
+      font-family: Poppins, sans-serif;
+      font-size: 30px;
+      font-weight: 700;
+      color: #242f51;
+      padding: 0;
+      margin: 0; }
+      header .row .logo .orange {
+        color: #fcae61; }
+
+.best-app {
+  background: url("../../images/z-1.png") 200% no-repeat, url("../../images/z-0.png") no-repeat bottom; }
+  .best-app .title {
+    color: #242f51;
+    font-family: "Poppins - Semi Bold", sans-serif;
+    font-size: 3.75rem;
+    line-height: 75px; }
+  .best-app .subtitle {
+    color: #616368;
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    font-size: 1.125rem;
+    max-width: 481px; }
+  .best-app .link {
+    align-items: center;
+    width: 349px;
+    justify-content: space-between; }
+    .best-app .link .btn {
+      color: #ffffff;
+      font-family: Poppins, sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      width: 170px;
+      height: 57px;
+      border-radius: 29px;
+      background-color: #2500f9; }
+    .best-app .link a {
+      color: #2500f9;
+      font-family: Poppins, sans-serif;
+      font-size: 1rem; }
+
+.likes {
+  padding: 114px 0; }
+  .likes .images {
+    margin: auto; }
+
+.apps_features .title {
+  color: #242f51;
+  font-family: "Poppins - Semi Bold", sans-serif;
+  font-size: 2.25rem; }
+
+.apps_features .desk {
+  color: #616368;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem; }
+
+.apps_features .row h5 {
+  font-family: "Poppins - Semi Bold", sans-serif;
+  font-size: 1.25rem; }
+
+.apps_features .row p {
+  color: #616368;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem; }
+
+.apps_features .row .one_h {
+  color: #f55767; }
+
+.apps_features .row .two_h {
+  color: #2563ff; }
+
+.apps_features .row .three_h {
+  color: #40975f; }
+
+.apps_features .row .wrapper {
+  margin: 92px 0; }
+
+.apps_features .row .row {
+  padding: 31px 0; }
