@@ -149,6 +149,17 @@ header {
     text-align: center;
   }
 
+  header{
+    .row {
+      li {
+        padding: 5px 0;
+      }
+      .menu{
+        width: auto;
+      }
+    }
+  }
+
 
   .best-app {
     .subtitle{
