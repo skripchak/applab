@@ -15,32 +15,7 @@
 @import "components/apps_features.scss";
 
 
-@media (max-width: 991.98px) {
-  *{
-    text-align: center;
-  }
 
-  header{
-    .row {
-      li {
-        padding: 5px 0;
-      }
-      .menu{
-        width: auto;
-      }
-    }
-  }
-
-
-  .best-app {
-    .subtitle{
-      max-width: 100%;
-    }
-    .link{
-      margin: 0 auto;
-    }
-  }
-}
 
 
 

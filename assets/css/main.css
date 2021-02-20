@@ -34,6 +34,14 @@ header {
   padding: 0;
   margin: 0; }
 
+@media (max-width: 991.98px) {
+  * {
+    text-align: center; }
+  header .row li {
+    padding: 5px 0; }
+  header .row .menu {
+    width: auto; } }
+
 .best-app {
   background: url("../../images/z-1.png") 200% no-repeat, url("../../images/z-0.png") no-repeat bottom; }
   .best-app .aside {
@@ -72,26 +80,32 @@ header {
       font-size: 1rem;
       color: #2500f9; }
 
+@media (max-width: 991.98px) {
+  .best-app .subtitle {
+    max-width: 100%; }
+  .best-app .aside {
+    margin: auto; }
+  .best-app .link {
+    margin: 0 auto; } }
+
 .likes {
   padding: 114px 0; }
   .likes .images {
     margin: auto;
     align-items: center; }
-    .likes .images img {
-      height: 100%; }
-
-.apps_features .title {
-  font-family: "Poppins - Semi Bold", sans-serif;
-  font-size: 2.25rem;
-  color: #242f51; }
-
-.apps_features .desk {
-  font-family: Poppins, sans-serif;
-  font-size: 1rem;
-  color: #616368; }
 
 .apps_features .row {
   padding: 31px 0; }
+  .apps_features .row .title {
+    font-family: "Poppins - Semi Bold", sans-serif;
+    font-size: 2.25rem;
+    color: #242f51; }
+  .apps_features .row .desk {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    color: #616368; }
+  .apps_features .row .image__item {
+    margin: 0 -100px; }
   .apps_features .row h5 {
     font-family: "Poppins - Semi Bold", sans-serif;
     font-size: 1.25rem;
@@ -108,6 +122,9 @@ header {
     color: #40975f; }
   .apps_features .row .wrapper {
     margin: 92px 0; }
+    .apps_features .row .wrapper .row {
+      max-width: 450px;
+      margin: auto; }
   .apps_features .row .caption {
     line-height: 50px;
     font-family: "Poppins - Semi Bold", sans-serif;
@@ -127,14 +144,19 @@ header {
   max-width: 900px;
   margin: auto; }
 
+.apps_features .blood {
+  max-width: 1024px;
+  margin: auto; }
+
+@media (max-width: 767.98px) and (min-width: 576px) {
+  .apps_features .apps_features .row .block .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 40%; }
+  .apps_features .apps_features .row .block .row {
+    width: 260px; } }
+
 @media (max-width: 991.98px) {
-  * {
-    text-align: center; }
-  header .row li {
-    padding: 5px 0; }
-  header .row .menu {
-    width: auto; }
-  .best-app .subtitle {
-    max-width: 100%; }
-  .best-app .link {
-    margin: 0 auto; } }
+  .apps_features .row .line {
+    width: 100%;
+    height: 1px; } }
