@@ -147,6 +147,18 @@ header {
 .apps_features .blood {
   max-width: 1024px;
   margin: auto; }
+  .apps_features .blood .wrapper .title {
+    font-family: "Poppins - Semi Bold", sans-serif;
+    font-size: 1.25rem;
+    color: black; }
+    .apps_features .blood .wrapper .title h3 {
+      font-size: 1.25rem; }
+  .apps_features .blood .wrapper .title_one {
+    color: #f55767; }
+  .apps_features .blood .wrapper .title_two {
+    color: #2563ff; }
+  .apps_features .blood .wrapper .title_three {
+    color: #40975f; }
 
 @media (max-width: 767.98px) and (min-width: 576px) {
   .apps_features .apps_features .row .block .wrapper {
@@ -159,4 +171,6 @@ header {
 @media (max-width: 991.98px) {
   .apps_features .row .line {
     width: 100%;
-    height: 1px; } }
+    height: 1px; }
+  .apps_features .row .wrapper {
+    margin: auto; } }
