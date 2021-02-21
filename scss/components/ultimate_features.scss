@@ -1,0 +1,43 @@
+.ultimate_features {
+  .container {
+    .row {
+      .title {
+        @include font(2.25rem, "Poppins - Semi Bold", #242f51);
+      }
+
+      .subtitle {
+        @include font($color: #616368);
+      }
+    }
+
+    .grid {
+      background-image: url("../../images/Phone_copy.png");
+      background-position: 109%;
+      background-repeat: no-repeat;
+      background-size: 50%;
+      .wrapper {
+        max-width: 625px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .wrap {
+          max-width: 259px;
+          padding: 60px 0 30px;
+
+          .title {
+            @include font(1.25rem, "Poppins - Semi Bold", #242f51);
+          }
+
+          .image {
+            padding: 0 0 36px;
+          }
+
+          .text {
+            padding: 15px 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.apps_features {
+  .row {
+
+    .title {
+      @include font(2.25rem, "Poppins - Semi Bold", #242f51);
+    }
+
+    .desk {
+      @include font($color: #616368);
+    }
+
+
+    .image__item {
+      margin: 0 -100px;
+    }
+
+    h5 {
+      @include font(1.25rem, "Poppins - Semi Bold")
+    }
+
+    p {
+      @include font($color: #616368);
+    }
+
+    .one_h {
+      color: #f55767;
+    }
+
+    .two_h {
+      color: #2563ff;
+    }
+
+    .three_h {
+      color: #40975f;
+    }
+
+    .wrapper {
+      margin: 92px 0;
+
+      .row {
+        max-width: 450px;
+        margin: auto;
+      }
+    }
+
+    .caption {
+      line-height: 50px;
+      @include font(2.5rem, "Poppins - Semi Bold", #242f51);
+    }
+
+    .subtitle {
+      @include font(1rem, Poppins, #616368);
+    }
+
+    .line {
+      width: 1px;
+      background-color: #4b4a48;
+      opacity: 0.39;
+      height: 147px;
+    }
+
+    padding: 31px 0;
+  }
+
+  .jackpots {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .blood {
+    max-width: 1024px;
+    margin: auto;
+    .wrapper{
+      .title{
+        @include font(1.25rem,"Poppins - Semi Bold");
+        h3{
+          font-size: 1.25rem;
+        }
+      }
+      .title_one{
+        color: #f55767;
+      }
+      .title_two{
+        color: #2563ff;
+      }
+      .title_three{
+        color: #40975f;
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) and (min-width: 576px) {
+    .apps_features {
+      width: 70%;
+      .row {
+        .block {
+          .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            flex-basis: 40%;
+          }
+
+          .row {
+            width: 260px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .apps_features {
+    .row {
+      .line {
+        width: 100%;
+        height: 1px;
+      }
+      .wrapper{
+        margin: auto;
+      }
+    }
+  }
+}

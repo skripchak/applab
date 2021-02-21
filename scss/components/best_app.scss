@@ -1,0 +1,66 @@
+.best-app {
+  background: url("../../images/z-1.png") 200% no-repeat,
+  url("../../images/z-0.png") no-repeat bottom;
+
+  .aside {
+    background: #e2eaed;
+    //width: 362px;
+    height: 35px;
+    border-radius: 18px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .title {
+    line-height: 75px;
+    @include font(3.75rem,"Poppins - Semi Bold",#242f51);
+  }
+
+  .subtitle {
+    @include font(1.25rem,$color:#616368);
+    max-width: 481px;
+    padding: 20px 0;
+  }
+
+  .link {
+    align-items: center;
+    max-width: 349px;
+    justify-content: space-between;
+
+    .btn {
+      @include font($color:#fff);
+      font-weight: 700;
+      width: 170px;
+      height: 57px;
+      border-radius: 29px;
+      background-color: #2500f9;
+    }
+
+    a {
+      @include font($color:#2500f9);
+    }
+
+  }
+}
+
+@media (max-width: 991.98px) {
+  .best-app {
+    .subtitle{
+      max-width: 100%;
+    }
+    .aside{
+      margin: auto;
+    }
+    .link{
+      margin: 0 auto;
+    }
+  }
+}
+
+.w-sm-100 {
+  @media (max-width: 991.98px) {
+    width: 100%;
+  }
+}

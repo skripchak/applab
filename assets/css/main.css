@@ -221,3 +221,46 @@ header {
       font-family: Poppins, sans-serif;
       font-size: 1rem;
       color: #616368; }
+  .choose_app .container .grid .wrapper {
+    display: flex;
+    flex-direction: column; }
+    .choose_app .container .grid .wrapper .caption {
+      font-family: "Poppins - Semi Bold", sans-serif;
+      font-size: 1.25rem;
+      color: #242f51; }
+    .choose_app .container .grid .wrapper .image {
+      padding: 36px 0; }
+    .choose_app .container .grid .wrapper .subtitle {
+      padding: 15px 0; }
+
+.ultimate_features .container .row .title {
+  font-family: "Poppins - Semi Bold", sans-serif;
+  font-size: 2.25rem;
+  color: #242f51; }
+
+.ultimate_features .container .row .subtitle {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  color: #616368; }
+
+.ultimate_features .container .grid {
+  background-image: url("../../images/Phone_copy.png");
+  background-position: 109%;
+  background-repeat: no-repeat;
+  background-size: 50%; }
+  .ultimate_features .container .grid .wrapper {
+    max-width: 625px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .ultimate_features .container .grid .wrapper .wrap {
+      max-width: 259px;
+      padding: 60px 0 30px; }
+      .ultimate_features .container .grid .wrapper .wrap .title {
+        font-family: "Poppins - Semi Bold", sans-serif;
+        font-size: 1.25rem;
+        color: #242f51; }
+      .ultimate_features .container .grid .wrapper .wrap .image {
+        padding: 0 0 36px; }
+      .ultimate_features .container .grid .wrapper .wrap .text {
+        padding: 15px 0; }

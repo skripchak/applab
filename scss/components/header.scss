@@ -1,0 +1,60 @@
+header {
+  @include pm(100px 0 70px, auto);
+
+  .row {
+    align-items: center;
+
+
+    ul, li, {
+      @include pm;
+      list-style: none;
+    }
+
+    .menu {
+      width: 461px;
+
+      a {
+        @include font(1rem, Poppins, #242f51);
+      }
+    }
+
+    .btn {
+      @include pm;
+      width: 170px;
+      height: 57px;
+      border-radius: 29px;
+      background-color: #2500f9;
+    }
+
+    .logo {
+      font-weight: 700;
+      @include font(1.875rem, Poppins, #242f51);
+      @include pm;
+
+      .orange {
+        color: #fcae61;
+      }
+    }
+  }
+}
+
+* {
+  @include pm();
+}
+@media (max-width: 991.98px) {
+  * {
+    text-align: center;
+  }
+
+  header {
+    .row {
+      li {
+        padding: 5px 0;
+      }
+
+      .menu {
+        width: auto;
+      }
+    }
+  }
+}

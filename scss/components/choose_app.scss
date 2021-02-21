@@ -1,0 +1,29 @@
+.choose_app{
+  padding: 216px 0;
+  .container{
+    .row{
+      text-align: center;
+      .title{
+        @include font(2.25rem,"Poppins - Semi Bold",#242f51)
+      }
+      .text{
+        @include font(1rem,Poppins,#616368)
+      }
+    }
+    .grid{
+      .wrapper{
+        display: flex;
+        flex-direction: column;
+        .caption{
+          @include font(1.25rem,"Poppins - Semi Bold",#242f51);
+        }
+        .image{
+          padding: 36px 0;
+        }
+        .subtitle{
+          padding: 15px 0;
+        }
+      }
+    }
+  }
+}
