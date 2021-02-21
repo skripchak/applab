@@ -3,7 +3,7 @@
   margin: $margin;
 }
 
-@mixin font($size:1rem,$family:Poppins,$color:black) {
+@mixin font($size:1rem,$family:Poppins,$color:#616368) {
   font-family: $family, sans-serif;
   font-size: $size;
   color: $color;
@@ -16,6 +16,7 @@
 @import "components/code_integration.scss";
 @import "components/choose_app.scss";
 @import "components/ultimate_features.scss";
+@import "components/extra_charges.scss";
 
 
 
