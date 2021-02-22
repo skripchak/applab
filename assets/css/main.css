@@ -419,3 +419,37 @@ header {
     font-family: "Poppins - Semi Bold", sans-serif;
     font-size: 1.125rem;
     color: #242f51; }
+
+.questions {
+  padding: 200px 0; }
+  .questions .container .row {
+    text-align: center; }
+    .questions .container .row .title {
+      font-family: "Poppins - Semi Bold", sans-serif;
+      font-size: 2.5rem;
+      color: #242f51; }
+    .questions .container .row .subtitle {
+      font-family: Poppins, sans-serif;
+      font-size: 1rem;
+      color: #616368;
+      margin: 32px 0 66px 0; }
+  .questions .container .items .item_active {
+    background-color: #f5f7fa;
+    margin: 5px auto; }
+    .questions .container .items .item_active .question {
+      font-family: Poppins, sans-serif;
+      font-size: 1.25rem;
+      color: #242f51;
+      padding: 50px 0 15px 0; }
+    .questions .container .items .item_active .answer {
+      font-family: Poppins, sans-serif;
+      font-size: 1rem;
+      color: #616368;
+      padding: 15px 0 78px 0; }
+  .questions .container .items .item {
+    background-color: #f5f7fa;
+    font-family: Poppins, sans-serif;
+    font-size: 1.25rem;
+    color: #242f51;
+    padding: 17px 15px;
+    margin: 5px auto; }
