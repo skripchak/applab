@@ -8,6 +8,7 @@
   font-size: $size;
   color: $color;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
 
 @import "components/header.scss";
 @import "components/best_app.scss";
@@ -21,6 +22,7 @@
 @import "components/questions.scss";
 @import "components/download.scss";
 @import "components/footer.scss";
+@import "components/all.scss";
 
 
 

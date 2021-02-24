@@ -1,4 +1,4 @@
-header {
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap);header {
   padding: 100px 0 70px;
   margin: auto; }
   header .row {
@@ -30,18 +30,7 @@ header {
       header .row .logo .orange {
         color: #fcae61; }
 
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none; }
-  * ul, * li {
-    padding: 0;
-    margin: 0;
-    list-style: none; }
-
 @media (max-width: 991.98px) {
-  * {
-    text-align: center; }
   header .row li {
     padding: 5px 0; }
   header .row .menu {
@@ -483,8 +472,12 @@ header {
     font-size: 1rem;
     color: #616368;
     padding: 30px 0; }
+  @media (max-width: 576px) {
+    .download .container .row .wrapper .buttons {
+      flex-direction: column; } }
 
 footer {
+  padding: 115px 0;
   background-color: #09142e; }
   footer .container .row {
     align-items: center;
@@ -506,10 +499,41 @@ footer {
       padding: 52px 0;
       width: 461px;
       margin: auto; }
+      @media (max-width: 576px) {
+        footer .container .row .nav .menu {
+          width: auto; } }
+      @media (max-width: 575.98px) {
+        footer .container .row .nav .menu li {
+          padding: 5px 0;
+          align-items: center; } }
       footer .container .row .nav .menu li a {
         font-family: Poppins, sans-serif;
         font-size: 1rem;
         color: #fff; }
-    footer .container .row .icons i {
+    footer .container .row .socials i {
       color: #fff;
       padding: 0 11.4px; }
+    footer .container .row .copyright {
+      font-family: Poppins, sans-serif;
+      font-size: 0.875rem;
+      color: #fff;
+      opacity: 0.21;
+      padding: 91px 0 0; }
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none; }
+  * ul, * li {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+  * .btn {
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+    color: #fff; }
+  @media (max-width: 991.98px) {
+    * {
+      text-align: center; }
+      * .apps_features, * .best_app, * .choose_app, * .code_integration, * .download, * .extra_charges, * .likes, * .questions, * .satisfaction, * .ultimate_features {
+        padding: 50px 0; } }

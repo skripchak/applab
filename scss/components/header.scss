@@ -38,20 +38,8 @@ header {
   }
 }
 
-* {
-  @include pm();
-  text-decoration: none;
-
-  ul, li, {
-    @include pm;
-    list-style: none;
-  }
-}
 
 @media (max-width: 991.98px) {
-  * {
-    text-align: center;
-  }
 
   header {
     .row {
