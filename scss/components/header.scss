@@ -14,7 +14,7 @@ header {
       width: 461px;
 
       a {
-        @include font(1rem, Poppins, #242f51);
+        @include font(1rem, Poppins, #242f51); //#242f51
       }
     }
 
@@ -40,7 +40,14 @@ header {
 
 * {
   @include pm();
+  text-decoration: none;
+
+  ul, li, {
+    @include pm;
+    list-style: none;
+  }
 }
+
 @media (max-width: 991.98px) {
   * {
     text-align: center;
