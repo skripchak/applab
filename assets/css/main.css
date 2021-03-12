@@ -20,8 +20,11 @@
       height: 57px;
       border-radius: 29px;
       background-color: #2500f9; }
-    header .row .menu-toggle .btn {
-      background: #40975f; }
+    header .row .menu-toggle {
+      padding: 0;
+      justify-content: center; }
+      header .row .menu-toggle .btn {
+        background: #40975f; }
     header .row .logo {
       font-weight: 700;
       font-family: Poppins, sans-serif;
@@ -37,6 +40,10 @@
     padding: 5px 0; }
   header .row .menu {
     width: auto; } }
+
+@media (max-width: 575.98px) {
+  header .row .btn {
+    margin: 8px auto; } }
 
 .best-app {
   background: url("../../images/z-1.png") 200% no-repeat, url("../../images/z-0.png") no-repeat bottom; }
@@ -157,6 +164,8 @@
 .apps_features .jackpots {
   max-width: 900px;
   margin: auto; }
+  .apps_features .jackpots .line {
+    margin: 25px 0; }
 
 .apps_features .blood {
   max-width: 1024px;
@@ -314,12 +323,14 @@
     border-radius: 29px;
     border: 2px solid #ebebeb;
     max-width: 235px;
-    padding: 0;
-    margin: 0; }
+    height: 100px;
+    display: flex;
+    flex-direction: column; }
     .extra_charges .wrap_switch .switch .btn_active {
       font-family: Poppins, sans-serif;
       font-size: 1rem;
       color: #fff;
+      margin: auto;
       font-weight: 700;
       width: 136px;
       height: 48px;

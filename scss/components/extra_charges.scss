@@ -20,10 +20,13 @@
       border-radius: 29px;
       border: 2px solid #ebebeb;
       max-width: 235px;
-      @include pm;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
 
       .btn_active {
         @include font($color: #fff);
+        margin: auto;
         font-weight: 700;
         width: 136px;
         height: 48px;

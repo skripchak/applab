@@ -24,9 +24,12 @@ header {
       height: 57px;
       border-radius: 29px;
       background-color: #2500f9;
+      
     }
 
     .menu-toggle{
+      padding: 0;
+      justify-content: center;
       .btn{
           background: #40975f;
         }
@@ -55,6 +58,17 @@ header {
 
       .menu {
         width: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+
+  header{
+    .row{
+      .btn{
+          margin: 8px auto;
       }
     }
   }
