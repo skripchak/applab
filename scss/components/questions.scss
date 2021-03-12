@@ -1,0 +1,43 @@
+.questions {
+  padding: 200px 0;
+  .container {
+    .row {
+      text-align: center;
+
+      .title {
+        @include font(2.5rem, "Poppins - Semi Bold", #242f51);
+      }
+
+      .subtitle {
+        @include font;
+        margin: 32px 0 66px 0;
+      }
+    }
+
+    .items {
+      .item_active{
+        background-color: #f5f7fa;
+        margin: 5px auto;
+        .question{
+          @include font(1.25rem,$color:#242f51);
+          padding: 50px 0 15px 0;
+        }
+        .answer{
+          @include font();
+          padding:15px 0 78px 0;
+        }
+      }
+      .item {
+        background-color: #f5f7fa;
+        @include font(1.25rem,$color:#242f51);
+        padding: 17px 15px;
+        margin: 5px auto;
+      }
+    }
+  }
+}
+
+//make it a list
+
+
+

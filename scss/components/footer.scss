@@ -1,0 +1,61 @@
+footer {
+  padding: 115px 0;
+  background-color: #09142e;
+
+  .container {
+
+
+    .row {
+      align-items: center;
+
+      .logo {
+        font-weight: 700;
+        @include font(1.875rem, Poppins, #242f51);
+        @include pm;
+
+        p {
+          @include pm;
+          color: #fff;
+        }
+
+        .orange {
+          color: #fcae61;
+        }
+      }
+
+      text-align: center;
+
+      .nav {
+        .menu {
+          padding: 52px 0;
+          width: 461px;
+          margin: auto;
+          @media (max-width: 576px) {
+            width: auto;
+          }
+
+          li {
+            @media (max-width: 575.98px)  {
+              padding: 5px 0;
+              align-items: center;}
+            a {
+              @include font(1rem, Poppins, #fff);
+            }
+          }
+        }
+      }
+
+      .socials {
+        i {
+          color: #fff;
+          padding: 0 11.4px;
+        }
+      }
+      .copyright{
+        @include font(0.875rem,Poppins,#fff);
+        opacity: 0.21;
+        padding: 91px 0 0;
+      }
+    }
+  }
+}

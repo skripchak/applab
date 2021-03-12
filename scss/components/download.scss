@@ -1,0 +1,22 @@
+.download {
+  border-top: solid 1px #e5e6e5;
+  padding: 96px 0;
+  .container {
+    .row{
+      .wrapper{
+        .title{
+          @include font(3rem,"Poppins - Semi Bold",#242f51);
+        }
+        .subtitle{
+          @include font();
+          padding: 30px 0;
+        }
+        .buttons{
+          @media (max-width: 576px) { //or 460.98px??
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}

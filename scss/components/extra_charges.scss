@@ -1,0 +1,103 @@
+.extra_charges {
+  padding: 173px 0;
+  .row {
+    text-align: center;
+
+    .title {
+      @include font(2.25rem, "Poppins - Semi Bold", #242f51);
+    }
+
+    .subtitle {
+      @include font;
+      padding: 33px 0;
+    }
+
+  }
+
+  .wrap_switch {
+
+    .switch {
+      border-radius: 29px;
+      border: 2px solid #ebebeb;
+      max-width: 235px;
+      @include pm;
+
+      .btn_active {
+        @include font($color: #fff);
+        font-weight: 700;
+        width: 136px;
+        height: 48px;
+        border-radius: 24px;
+        background-color: #2500f9;
+        border: 1px solid transparent;
+      }
+
+      .btn {
+        opacity: 0.75;
+        @include font;
+      }
+    }
+  }
+
+  .aside{
+    padding: 40px;
+    .wrapper{
+      box-shadow: 4px 55px 62px rgba(144, 163, 177, 0.18);
+      border-radius: 9px;
+      background-color: #ffffff;
+      margin: 50px 0;
+      .top{
+        background: linear-gradient(to bottom, #fefeff, #f4f7f9);
+        .price{
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          @include font(1.125rem,Poppins,#999ca5);
+          p{
+            @include font(3.75rem,"Poppins - Semi Bold",#242f51);
+          }
+        }
+        .caption{
+          @include font(1.25rem,"Poppins - Semi Bold",#242f51);
+        }
+        .text{
+          @include font($color:#999ca5);
+          padding: 10px 0 42px 0;
+        }
+      }
+      .bottom{
+        ul{
+          padding: 20px 0;
+          li{
+            list-style: none;
+            @include font($color:#999ca5);
+            padding: 15px 0;
+          }
+        }
+        .btn{
+          width: 210px;
+          height: 56px;
+          border-radius: 28px;
+          background-color: #2500f9;
+          @include font($family: "Poppins - Semi Bold",$color:#fff);
+          margin: 20px 0;
+          @media (max-width: 575.98px) {
+            width: 100%;
+          }
+        }
+        .link{
+          padding: 30px 0;
+          a{
+            @include font($color: #2500f9);
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .brd{
+      border-radius: 9px;
+      border: 2px solid #ebebeb;
+    }
+  }
+}

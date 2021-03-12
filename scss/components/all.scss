@@ -1,0 +1,18 @@
+*{
+  @include pm();
+  text-decoration: none;
+
+  ul, li, {
+    @include pm;
+    list-style: none;
+  }
+  .btn{
+    @include font(1rem,Poppins,#fff);
+  }
+  @media (max-width: 991.98px) {
+    text-align: center;
+    .apps_features,.best_app,.choose_app,.code_integration,.download,.extra_charges,.likes,.questions,.satisfaction,.ultimate_features{
+      padding: 50px 0;
+    }
+  }
+}

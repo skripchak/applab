@@ -1,0 +1,41 @@
+.satisfaction{
+  .container{
+    .row{
+      .image{
+        img{
+          width: 100%;
+        }
+      }
+      .wrapper{
+        padding: 0;
+        .caption{
+          @include font(2.5rem,"Poppins - Semi Bold",#242f51);
+        }
+        .subtitle{
+          @include font();
+          padding: 30px 15px;
+        }
+        .lead{
+          @include font(1.25rem,"Poppins - Semi Bold",#242f51);
+          padding: 40px 15px 0 15px;
+        }
+        .text{
+          @include font();
+          padding: 60px 15px;
+        }
+        .comment{
+          @media (max-width: 991.98px) {
+            margin: auto;
+          }
+          .short_text{
+            @include font(1.125rem);
+          }
+          .name{
+            @include font(1.125rem,"Poppins - Semi Bold",#242f51);
+
+          }
+        }
+      }
+    }
+  }
+}
