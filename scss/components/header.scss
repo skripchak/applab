@@ -26,6 +26,12 @@ header {
       background-color: #2500f9;
     }
 
+    .menu-toggle{
+      .btn{
+          background: #40975f;
+        }
+      }
+
     .logo {
       font-weight: 700;
       @include font(1.875rem, Poppins, #242f51);

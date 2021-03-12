@@ -20,6 +20,8 @@
       height: 57px;
       border-radius: 29px;
       background-color: #2500f9; }
+    header .row .menu-toggle .btn {
+      background: #40975f; }
     header .row .logo {
       font-weight: 700;
       font-family: Poppins, sans-serif;
