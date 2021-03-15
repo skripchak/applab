@@ -3,6 +3,8 @@
   margin: auto; }
   header .row {
     align-items: center; }
+    header .row .menu_navbar {
+      margin: auto; }
     header .row ul, header .row li {
       padding: 0;
       margin: 0;
@@ -14,8 +16,6 @@
         font-size: 1rem;
         color: #242f51; }
     header .row .btn {
-      padding: 0;
-      margin: 0;
       width: 170px;
       height: 57px;
       border-radius: 29px;
@@ -29,9 +29,7 @@
       font-weight: 700;
       font-family: Poppins, sans-serif;
       font-size: 1.875rem;
-      color: #242f51;
-      padding: 0;
-      margin: 0; }
+      color: #242f51; }
       header .row .logo .orange {
         color: #fcae61; }
 

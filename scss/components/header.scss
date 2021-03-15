@@ -4,6 +4,9 @@ header {
   .row {
     align-items: center;
 
+    .menu_navbar{
+      margin: auto;
+    }
 
     ul, li, {
       @include pm;
@@ -19,7 +22,6 @@ header {
     }
 
     .btn {
-      @include pm;
       width: 170px;
       height: 57px;
       border-radius: 29px;
@@ -38,7 +40,6 @@ header {
     .logo {
       font-weight: 700;
       @include font(1.875rem, Poppins, #242f51);
-      @include pm;
 
       .orange {
         color: #fcae61;
@@ -68,7 +69,8 @@ header {
   header{
     .row{
       .btn{
-          margin: 8px auto;
+         margin: 8px auto;
+        //margin: auto;
       }
     }
   }
