@@ -17,7 +17,7 @@ header {
       width: 461px;
 
       a {
-        @include font(1rem, Poppins, #242f51); //#242f51
+        @include font(1rem, Poppins, $dark-blue);
       }
     }
 
@@ -25,7 +25,7 @@ header {
       width: 170px;
       height: 57px;
       border-radius: 29px;
-      background-color: #2500f9;
+      background-color: $sapphirine;
       
     }
 
@@ -33,16 +33,16 @@ header {
       padding: 0;
       justify-content: center;
       .btn{
-          background: #40975f;
+          background: $light-green;
         }
       }
 
     .logo {
       font-weight: 700;
-      @include font(1.875rem, Poppins, #242f51);
+      @include font(1.875rem, Poppins, $dark-blue);
 
       .orange {
-        color: #fcae61;
+        color: $orange;
       }
     }
   }

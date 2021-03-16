@@ -1,11 +1,11 @@
 .download {
-  border-top: solid 1px #e5e6e5;
+  border-top: solid 1px $white;
   padding: 96px 0;
   .container {
     .row{
       .wrapper{
         .title{
-          @include font(3rem,"Poppins - Semi Bold",#242f51);
+          @include font(3rem,"Poppins - Semi Bold",$dark-blue);
         }
         .subtitle{
           @include font();

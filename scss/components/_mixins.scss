@@ -1,0 +1,9 @@
+@mixin pm($padding:0,$margin:0) {
+  padding: $padding;
+  margin: $margin;
+}
+@mixin font($size:1rem,$family:Poppins,$color:$grey) {
+  font-family: $family, sans-serif;
+  font-size: $size;
+  color: $color;
+}

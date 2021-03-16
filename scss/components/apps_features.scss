@@ -2,11 +2,11 @@
   .row {
 
     .title {
-      @include font(2.25rem, "Poppins - Semi Bold", #242f51);
+      @include font(2.25rem, "Poppins - Semi Bold", $dark-blue);
     }
 
     .desk {
-      @include font($color: #616368);
+      @include font($color: $grey);
     }
 
 
@@ -19,19 +19,19 @@
     }
 
     p {
-      @include font($color: #616368);
+      @include font($color: $grey);
     }
 
     .one_h {
-      color: #f55767;
+      color: $pink;
     }
 
     .two_h {
-      color: #2563ff;
+      color: $blue;
     }
 
     .three_h {
-      color: #40975f;
+      color: $light-green;
     }
 
     .wrapper {
@@ -45,16 +45,16 @@
 
     .caption {
       line-height: 50px;
-      @include font(2.5rem, "Poppins - Semi Bold", #242f51);
+      @include font(2.5rem, "Poppins - Semi Bold", $dark-blue);
     }
 
     .subtitle {
-      @include font(1rem, Poppins, #616368);
+      @include font(1rem, Poppins, $grey);
     }
 
     .line {
       width: 1px;
-      background-color: #4b4a48;
+      background-color: $dark-grey;
       opacity: 0.39;
       height: 147px;
     }
@@ -82,13 +82,13 @@
         }
       }
       .title_one{
-        color: #f55767;
+        color: $pink;
       }
       .title_two{
-        color: #2563ff;
+        color: $blue;
       }
       .title_three{
-        color: #40975f;
+        color: $light-green;
       }
     }
   }

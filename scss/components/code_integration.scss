@@ -5,19 +5,19 @@
     .wrapper {
 
       .title {
-        @include font(2.25rem, "Poppins - Semi Bold", #242f51);
+        @include font(2.25rem, "Poppins - Semi Bold", $dark-blue);
         padding: 29px 0;
       }
 
       .subtitle {
-        @include font(1rem, Poppins, #616368);
+        @include font(1rem, Poppins, $grey);
       }
 
       .btn {
-        @include font(1rem, Poppins, #fff);
+        @include font(1rem, Poppins, white);
         font-weight: 700;
         border-radius: 29px;
-        background-color: #2500f9;
+        background-color: $sapphirine;
         width: 170px;
         height: 57px;
         margin: 26px 0;

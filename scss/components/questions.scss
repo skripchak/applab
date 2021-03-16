@@ -16,10 +16,10 @@
 
     .items {
       .item_active{
-        background-color: #f5f7fa;
+        background-color: $dark-white;
         margin: 5px auto;
         .question{
-          @include font(1.25rem,$color:#242f51);
+          @include font(1.25rem,$color:$dark-blue);
           padding: 50px 0 15px 0;
         }
         .answer{
@@ -28,8 +28,8 @@
         }
       }
       .item {
-        background-color: #f5f7fa;
-        @include font(1.25rem,$color:#242f51);
+        background-color: $dark-white;
+        @include font(1.25rem,$color:$dark-blue);
         padding: 17px 15px;
         margin: 5px auto;
       }
@@ -37,7 +37,6 @@
   }
 }
 
-//make it a list
 
 
 

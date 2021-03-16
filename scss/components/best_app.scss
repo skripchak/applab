@@ -13,13 +13,13 @@
     padding: 0;
     i{
       border-radius: 18px;
-      background-color: #feaa25;
+      background-color: $light-yellow;
       width: 39px;
       height: 35px;
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #fff;
+      color: white;
       margin: 0 10px 0 0;
     }
   }
@@ -27,11 +27,11 @@
   }
   .title {
     line-height: 75px;
-    @include font(3.75rem,"Poppins - Semi Bold",#242f51);
+    @include font(3.75rem,"Poppins - Semi Bold",$dark-blue);
   }
 
   .subtitle {
-    @include font(1.25rem,$color:#616368);
+    @include font(1.25rem,$color:$grey);
     max-width: 481px;
     padding: 20px 0;
   }
@@ -42,16 +42,16 @@
     justify-content: space-between;
 
     .btn {
-      @include font($color:#fff);
+      @include font($color:white);
       font-weight: 700;
       width: 170px;
       height: 57px;
       border-radius: 29px;
-      background-color: #2500f9;
+      background-color: $sapphirine;
     }
 
     a {
-      @include font($color:#2500f9);
+      @include font($color:$sapphirine);
     }
 
   }

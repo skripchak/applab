@@ -23,11 +23,11 @@
     }
     .row {
       .title {
-        @include font(2.25rem, "Poppins - Semi Bold", #242f51);
+        @include font(2.25rem, "Poppins - Semi Bold", $dark-blue);
       }
 
       .subtitle {
-        @include font($color: #616368);
+        @include font($color: $grey);
       }
     }
 
@@ -40,14 +40,13 @@
         max-width: 625px;
         display: flex;
         flex-wrap: wrap;
-        //justify-content: space-between;
 
         .wrap {
           max-width: 259px;
           padding: 60px 0 30px;
 
           .title {
-            @include font(1.25rem, "Poppins - Semi Bold", #242f51);
+            @include font(1.25rem, "Poppins - Semi Bold", $dark-blue);
           }
 
           .image {
@@ -63,7 +62,7 @@
 
     .btn{
       border-radius: 29px;
-      background-color: #2500f9;
+      background-color: $sapphirine;
       width: 170px;
       height: 57px;
       margin: auto;

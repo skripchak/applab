@@ -1,16 +1,6 @@
-@mixin pm($padding:0,$margin:0) {
-  padding: $padding;
-  margin: $margin;
-}
-
-@mixin font($size:1rem,$family:Poppins,$color:#616368) {
-  font-family: $family, sans-serif;
-  font-size: $size;
-  color: $color;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
-
+@import "components/_global.scss";
+@import "components/_mixins.scss";
+@import "components/_variables.scss";
 @import "components/header.scss";
 @import "components/best_app.scss";
 @import "components/likes.scss";
@@ -23,7 +13,6 @@
 @import "components/questions.scss";
 @import "components/download.scss";
 @import "components/footer.scss";
-@import "components/all.scss";
 
 
 

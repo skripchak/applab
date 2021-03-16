@@ -9,14 +9,14 @@
       .wrapper{
         padding: 0;
         .caption{
-          @include font(2.5rem,"Poppins - Semi Bold",#242f51);
+          @include font(2.5rem,"Poppins - Semi Bold",$dark-blue);
         }
         .subtitle{
           @include font();
           padding: 30px 15px;
         }
         .lead{
-          @include font(1.25rem,"Poppins - Semi Bold",#242f51);
+          @include font(1.25rem,"Poppins - Semi Bold",$dark-blue);
           padding: 40px 15px 0 15px;
         }
         .text{
@@ -31,7 +31,7 @@
             @include font(1.125rem);
           }
           .name{
-            @include font(1.125rem,"Poppins - Semi Bold",#242f51);
+            @include font(1.125rem,"Poppins - Semi Bold",$dark-blue);
 
           }
         }

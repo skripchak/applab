@@ -7,7 +7,7 @@
     list-style: none;
   }
   .btn{
-    @include font(1rem,Poppins,#fff);
+    @include font(1rem,Poppins,white);
   }
   @media (max-width: 991.98px) {
     text-align: center;
@@ -16,3 +16,5 @@
     }
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');

@@ -1,6 +1,6 @@
 footer {
   padding: 115px 0;
-  background-color: #09142e;
+  background-color: $very-dark-blue;
 
   .container {
 
@@ -10,16 +10,16 @@ footer {
 
       .logo {
         font-weight: 700;
-        @include font(1.875rem, Poppins, #242f51);
+        @include font(1.875rem, Poppins, $dark-blue);
         @include pm;
 
         p {
           @include pm;
-          color: #fff;
+          color: white;
         }
 
         .orange {
-          color: #fcae61;
+          color: $orange;
         }
       }
 
@@ -39,7 +39,7 @@ footer {
               padding: 5px 0;
               align-items: center;}
             a {
-              @include font(1rem, Poppins, #fff);
+              @include font(1rem, Poppins, white);
             }
           }
         }
@@ -47,12 +47,12 @@ footer {
 
       .socials {
         i {
-          color: #fff;
+          color: white;
           padding: 0 11.4px;
         }
       }
       .copyright{
-        @include font(0.875rem,Poppins,#fff);
+        @include font(0.875rem,Poppins,white);
         opacity: 0.21;
         padding: 91px 0 0;
       }
