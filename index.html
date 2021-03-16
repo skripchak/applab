@@ -73,7 +73,7 @@
                     <a class="d-sm-block d-none" href="#">Watch demo video</a>
                 </div>
             </div>
-            <div class="col-lg-5 ml-auto">
+            <div class="image col-lg-5 ">
                 <img class="w-sm-100" src="images/phone.png" alt="phone">
             </div>
         </div>
@@ -399,7 +399,7 @@
         <div class="row aside justify-content-center">
             <div class="wrapper col-lg-4">
                 <div class="top flex-column">
-                    <div class="price">
+                    <div class="price price-left">
                         <p>$0</p>
                         /month
                     </div>
@@ -413,13 +413,13 @@
                         <li>Blog Support Tools</li>
                         <li>eCommerce Store</li>
                     </ul>
-                    <button class="btn">Start free trail</button>
+                    <button class="btn btn-left" data-toggle="modal" data-target=".modal">Start free trail</button>
                 </div>
             </div>
             <div class="col-lg-1"></div>
             <div class="wrapper brd col-lg-4">
                 <div class="top flex-column">
-                    <div class="price">
+                    <div class="price price-right">
                         <p>$99</p>
                         /month
                     </div>
@@ -433,7 +433,7 @@
                         <li>Blog Support Tools</li>
                         <li>eCommerce Store</li>
                     </ul>
-                    <button class="btn">Subscribe now</button>
+                    <button class="btn btn_right">Subscribe now</button>
                     <div class="link">
                         <a href="#">Or Start 14 days trail</a>
                     </div>
@@ -627,6 +627,56 @@
     </div>
 </footer>
 
+<div class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Халявный период</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                    Cupiditate, eligendi, officiis?
+                    Aliquid at magni neque nihil,
+                    nulla vitae voluptatem voluptates!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modal" tabindex="-2" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">С вас многа деняк!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                    Cupiditate, eligendi, officiis?
+                    Aliquid at magni neque nihil,
+                    nulla vitae voluptatem voluptates!</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -634,5 +684,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+<script src="jquery.js"></script>
 </body>
 </html>
