@@ -35,4 +35,62 @@ $('.btn_right').click(() => {
     $('#modal').modal();
 })
 
+$('#one').click(()=>{
+    let hide = true;
+    if (hide === true) {
+        $('#collapse1').collapse('show')
+        hide = false
+    }
+    if (hide === false){
+        $('#collapse1').collapse('hide')
+        hide = true;
+    }
+})
 
+$('#two').click(()=>{
+    let hide = true;
+    if (hide === true) {
+        $('#collapse2').collapse('show')
+        hide = false
+    }
+    if (hide === false){
+        $('#collapse2').collapse('hide')
+        hide = true;
+    }
+})
+
+$('#three').click(()=>{
+    let hide = true;
+    if (hide === true) {
+        $('#collapse3').collapse('show')
+        hide = false
+    }
+    if (hide === false){
+        $('#collapse3').collapse('hide')
+        hide = true;
+    }
+})
+
+$('#four').click(()=>{
+    let hide = true;
+    if (hide === true) {
+        $('#collapse4').collapse('show')
+        hide = false
+    }
+    if (hide === false){
+        $('#collapse4').collapse('hide')
+        hide = true;
+    }
+})
+
+$('#five').click(()=>{
+    let hide = true;
+    if (hide === true) {
+        $('#collapse5').collapse('show')
+        hide = false
+    }
+    if (hide === false){
+        $('#collapse5').collapse('hide')
+        hide = true;
+    }
+})
