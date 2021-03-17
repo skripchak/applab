@@ -83,7 +83,7 @@
           height: 56px;
           border-radius: 28px;
           background-color: $sapphirine;
-          @include font($family: "Poppins - Semi Bold",#fff);
+          @include font($family: "Poppins - Semi Bold",$color: white);
           margin: 20px 0;
           @media (max-width: 575.98px) {
             width: 100%;

@@ -14,7 +14,7 @@ btn.click(() => {
 
     priceLeft.html('<p>$100</p> /year')
     priceRight.html('<p>$899</p> /year')
-    
+
     ul.html('<li>Lorem ipsum</li> <li>Ipsum lorem</li> <li>Tools</li> <li>Store App</li>')
 
 });

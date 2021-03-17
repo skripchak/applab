@@ -1,5 +1,5 @@
-@import "components/_global.scss";
 @import "components/_mixins.scss";
+@import "components/_global.scss";
 @import "components/_variables.scss";
 @import "components/header.scss";
 @import "components/best_app.scss";
@@ -13,6 +13,22 @@
 @import "components/questions.scss";
 @import "components/download.scss";
 @import "components/footer.scss";
+
+
+#image{
+  position: relative;
+  .wrap{
+    background: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    position: absolute;
+    bottom: 170px;
+    left: 90px;
+    color: $grey;
+  }
+}
 
 
 

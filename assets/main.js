@@ -91,9 +91,9 @@
   !*** ./scss/main.scss ***!
   \************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("throw new Error(\"Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\\n\\n          @include font($family: \\\"Poppins - Semi Bold\\\",#fff);\\n                                                      ^\\n      Ordinal arguments must precede named arguments\\n      in /home/sooqqa/Applab/scss/components/extra_charges.scss (line 86, column 56)\");\n\n//# sourceURL=webpack:///./scss/main.scss?");
+eval("module.exports = __webpack_require__.p + \"css/main.css\";\n\n//# sourceURL=webpack:///./scss/main.scss?");
 
 /***/ }),
 
