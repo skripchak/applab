@@ -5,7 +5,6 @@ let btn = $('.extra_charges .switch .btn')
 let active = $('.extra_charges .switch .btn_active')
 let priceLeft = $('.extra_charges .top .price-left')
 let priceRight = $('.extra_charges .top .price-right')
-let li = $('.extra_charges .bottom ul li')
 let ul = $('.extra_charges .bottom ul')
 
 btn.click(() => {
@@ -43,5 +42,18 @@ $('.items li .item_active').click((e)=> {
     if (hide === false){
         $(e.currentTarget).children('.collapse').collapse('hide')
         hide = true;
+    }
+})
+
+let pressed = false;
+$('.best-app .image .btn').click(()=>{
+
+    if (pressed === false) {
+        $('.best-app .image .text').html('<p>Laoreet est egestas elit nisl metus dictumst varius habitasse, in scelerisque turpis dictum tempus nibh</p>')
+        pressed = true
+    }
+    else if (pressed === true){
+        $('.best-app .image .text').html('<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Doloribus natus nesciunt veritatis. In quidem, saepe?</p>')
+        pressed = false
     }
 })

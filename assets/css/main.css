@@ -552,12 +552,17 @@ footer {
 #image {
   position: relative; }
   #image .wrap {
-    background: white;
-    text-align: center;
     display: flex;
     justify-content: center;
     width: 60%;
     position: absolute;
-    bottom: 170px;
+    bottom: 116px;
     left: 90px;
-    color: #616368; }
+    color: #616368;
+    padding: 0; }
+    #image .wrap .text {
+      text-align: center;
+      background: white; }
+    #image .wrap .btn {
+      padding: 0;
+      height: 51px; }

@@ -18,15 +18,24 @@
 #image{
   position: relative;
   .wrap{
-    background: white;
-    text-align: center;
+
     display: flex;
     justify-content: center;
     width: 60%;
     position: absolute;
-    bottom: 170px;
+    bottom: 116px;
     left: 90px;
     color: $grey;
+    padding: 0;
+    .text{
+      text-align: center;
+      background: white;
+    }
+    .btn{
+      padding: 0;
+      height: 51px;
+      //213px
+    }
   }
 }
 
