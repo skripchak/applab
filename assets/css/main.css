@@ -549,20 +549,48 @@ footer {
       opacity: 0.21;
       padding: 91px 0 0; }
 
-#image {
+.best-app .image .img {
   position: relative; }
-  #image .wrap {
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    position: absolute;
-    bottom: 116px;
-    left: 90px;
-    color: #616368;
-    padding: 0; }
-    #image .wrap .text {
-      text-align: center;
-      background: white; }
-    #image .wrap .btn {
-      padding: 0;
-      height: 51px; }
+
+.best-app .image .wrap {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  position: absolute;
+  bottom: 116px;
+  left: 90px;
+  color: #616368;
+  padding: 0; }
+  @media (max-width: 1199.98px) {
+    .best-app .image .wrap {
+      bottom: 92px;
+      left: 70px; } }
+  @media (max-width: 991.98px) {
+    .best-app .image .wrap {
+      bottom: 155px;
+      left: 130px;
+      height: 250px; } }
+  @media (max-width: 767.98px) {
+    .best-app .image .wrap {
+      bottom: 100px;
+      left: 100px;
+      height: 200px; } }
+  @media (max-width: 575.98px) {
+    .best-app .image .wrap {
+      display: none; } }
+  .best-app .image .wrap .text {
+    text-align: center;
+    background: white; }
+    @media (max-width: 991.98px) {
+      .best-app .image .wrap .text {
+        height: 55%;
+        font-size: 1.2rem; } }
+    @media (max-width: 767.98px) {
+      .best-app .image .wrap .text {
+        font-size: 1rem; } }
+  .best-app .image .wrap .btn {
+    padding: 0;
+    height: 51px; }
+    @media (max-width: 991.98px) {
+      .best-app .image .wrap .btn {
+        height: 89px; } }

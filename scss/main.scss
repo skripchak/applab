@@ -15,29 +15,67 @@
 @import "components/footer.scss";
 
 
-#image{
-  position: relative;
-  .wrap{
-
-    display: flex;
-    justify-content: center;
-    width: 60%;
-    position: absolute;
-    bottom: 116px;
-    left: 90px;
-    color: $grey;
-    padding: 0;
-    .text{
-      text-align: center;
-      background: white;
+.best-app {
+  .image {
+    .img {
+      position: relative;
     }
-    .btn{
+
+    .wrap {
+
+      display: flex;
+      justify-content: center;
+      width: 60%;
+      position: absolute;
+      bottom: 116px;
+      left: 90px;
+      color: $grey;
       padding: 0;
-      height: 51px;
-      //213px
+      @media (max-width: 1199.98px) {
+        bottom: 92px;
+        left: 70px;
+      }
+      @media (max-width: 991.98px) {
+        bottom: 155px;
+        left: 130px;
+        height: 250px;
+      }
+      @media (max-width: 767.98px) {
+        bottom: 100px;
+        left: 100px;
+        height: 200px;
+      }
+
+
+      @media (max-width: 575.98px) {
+        display: none;
+      }
+
+
+      .text {
+        text-align: center;
+        background: white;
+        @media (max-width: 991.98px) {
+          height: 55%;
+          font-size: 1.2rem;
+        }
+        @media (max-width: 767.98px) {
+          font-size: 1rem;
+        }
+      }
+
+      .btn {
+        padding: 0;
+        height: 51px;
+        @media (max-width: 991.98px) {
+          height: 89px;
+        }
+      }
     }
   }
 }
+
+
 
 
 
