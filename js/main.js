@@ -7,9 +7,27 @@ let priceLeft = $('.extra_charges .top .price-left')
 let priceRight = $('.extra_charges .top .price-right')
 let ul = $('.extra_charges .bottom ul')
 
+let btnClass = {
+    'background':'white',
+    'color':'#616368',
+    'size': '1rem',
+    'font-family': 'Poppins, sans-serif',
+    'font-weight': '400'
+}
+let btn_activeClass = {
+    'background':'#2500f9',
+    'color':'white',
+    'border-radius':'28px',
+    'font-weight': '700',
+    'width': '136px',
+    'margin':'auto',
+    'opacity': '1',
+    'height': '48px'
+}
+
 btn.click(() => {
-    active.removeClass('btn_active').addClass('btn');
-    btn.removeClass('btn').addClass('btn_active');
+    active.css(btnClass)
+    btn.css(btn_activeClass)
 
     priceLeft.html('<p>$100</p> /year')
     priceRight.html('<p>$899</p> /year')
@@ -18,8 +36,9 @@ btn.click(() => {
 
 });
 active.click(() => {
-    active.removeClass('btn').addClass('btn_active');
-    btn.removeClass('btn_active').addClass('btn');
+
+    active.css(btn_activeClass)
+    btn.css(btnClass)
 
     priceLeft.html('<p>$0</p> /month')
     priceRight.html('<p>$99</p> /month')
